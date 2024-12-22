@@ -14,8 +14,7 @@ a:hover {
     overflow: hidden; /* Asegura que el contenido se ajuste dentro del círculo */
     display: flex;
     justify-content: center;
-    background-color: #500000;
-    padding: 15px;
+    padding: 1px;
     }
     
 }
