@@ -1,45 +1,4 @@
-/* styles.css */
-
-/* Estilos generales */
-
-a:hover {
-    color: #e00;
-}
-
-.Logo-bienvenida{
-    height: 120px; /* Altura */
-    width: 120px; /* Asegúrate de que sea igual a la altura */
-    margin-left: 180px; /* Mantén tu margen izquierdo */
-    border-radius: 50%; /* Hace que el elemento sea completamente circular */
-    overflow: hidden; /* Asegura que el contenido se ajuste dentro del círculo */
-    display: flex;
-    justify-content: center;
-    padding: 1px;
-}
-
-.texto-centrado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-/*Estilos cuerpo*/
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #e00;
-}
-
-.body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/*Estilos cabecera*/
+/* Estilos cabecera */
 header {
     background-color: #fff;
     position: fixed;
@@ -50,8 +9,11 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centra los elementos dentro de la cabecera */
     align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limita el ancho máximo de los elementos */
+    padding: 0 20px; /* Asegura que haya un poco de espacio a los lados */
 }
 
 header h1 {
@@ -65,6 +27,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center; /* Centra el menú horizontalmente */
+    flex: 1; /* Hace que el menú ocupe el espacio disponible */
 }
 
 nav ul li {
@@ -79,15 +43,44 @@ nav ul li a {
     font-size: 20px;
 }
 
-
-.fijo {
-    width: 100%;
-    margin: auto;
-    overflow:hidden;
-    background-color: #000;
+/* Logo */
+.Logo-bienvenida {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 0;
+    box-sizing: border-box;
+    margin-right: 20px; /* Ajusta el espacio entre el logo y el menú */
 }
 
-/*Estilos Banner*/
+.Logo-bienvenida img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Resto de los estilos mantienen su estructura original */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #e00;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Banner */
 .hero {
     height: 800px;
     color: #e00;
@@ -131,7 +124,7 @@ nav ul li a {
     margin: 0px 5%;
 }
 
-/*Estilos servicios*/
+/* Estilos servicios */
 .services {
     background-color: #fff;
     padding: 40px 0;
@@ -217,7 +210,7 @@ nav ul li a {
     color: #e00;
 }
 
-/*Estilos pie de pagina*/
+/* Estilos pie de pagina */
 footer {
     background-color: #000;
     color: #fff;
