@@ -33,6 +33,15 @@ a:hover {
     text-align: center;
 }
 
+
+.Servicios {
+color: red;
+}
+
+
+
+
+
 /*Estilos cuerpo*/
 body {
     font-family: Arial, sans-serif;
@@ -274,31 +283,6 @@ footer {
 footer p {
     margin: 20px 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 body {
     font-family: Arial, sans-serif;
