@@ -33,14 +33,9 @@ a:hover {
     text-align: center;
 }
 
-
 .Servicios {
 color: red;
 }
-
-
-
-
 
 /*Estilos cuerpo*/
 body {
@@ -79,9 +74,13 @@ header h1 {
 
 /* Barra de navegación */
 nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
+    height: max-content;
     display: flex;
 }
 
@@ -96,6 +95,7 @@ nav ul li a {
     font: bolder;
     font-size: 20px;
 }
+
 
 
 .fijo {
@@ -341,3 +341,7 @@ background-color: #000;
 .formacion-card:nth-child(even) {
     background-color: #000000;
 }
+
+
+
+
