@@ -527,6 +527,7 @@ body {
     background-color: #000000;
 }
 
+
 .block.reverse {
     flex-direction: row-reverse;
     background-color: #000;
@@ -590,3 +591,14 @@ body {
 .body {
     background-color: #000;
 }
+
+/* Estilo para cualquier apartado de la página */
+.text p:hover {
+    transition: background-color 0.3s ease; /* Añade una transición suave */
+  }
+  
+  /* Cambiar el color de fondo a rojo cuando el ratón pase sobre el elemento */
+  .text p:hover {
+    color: red;
+  }
+  
