@@ -106,7 +106,7 @@ nav ul li a {
     z-index: 2;
     color: white;
     width: 595px;
-    left: 883px;
+    left: 865px;
     top: 58px;
 }
 
@@ -128,7 +128,7 @@ nav ul li a {
     z-index: 2;
     color: white;
     width: 250px;
-    left: 980px;
+    left: 966px;
     top: 58px;
 }
 
@@ -150,7 +150,7 @@ nav ul li a {
     z-index: 2;
     color: lightblue;
     width: 250px;
-    left: 1059px;
+    left: 1049px;
     top: 58px;
 }
 
@@ -168,11 +168,11 @@ color: red;
 .desplegable-comunity {
     display: none;
     position: fixed;
-    background-color: #000000;
+    background-color:black;
     z-index: 2;
     color: white;
     width: 250px;
-    left: 1142px;
+    left: 1136px;
     top: 58px;
 }
 
@@ -190,11 +190,11 @@ color: red;
 .desplegable-developers {
     display: none;
     position: fixed;
-    background-color: #000000;
+    background-color: black;
     z-index: 2;
     color: white;
     width: 250px;
-    left: 1265px;
+    left: 1258px;
     top: 58px;
 }
 
