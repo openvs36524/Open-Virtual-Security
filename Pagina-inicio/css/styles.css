@@ -497,3 +497,8 @@ body {
 .about p:hover {
     color: red;
 }
+
+body {
+    font-size: 16px;
+}
+
